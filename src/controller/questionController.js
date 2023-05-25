@@ -2,8 +2,12 @@ import Question from "../models/questionModel";
 
 export const getQuestionsApi = async (req, res, next) => {
   try {
+    const offset = req.query.offset || 0;
+    const limit = req.query.limit || 5;
+
     const questions = await Question.find({})
-      .limit(5)
+      .skip(offset)
+      .limit(limit)
       .sort({ time: 1 })
       .select("-createdAt -updatedAt -__v")
       .orFail();
