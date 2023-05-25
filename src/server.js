@@ -2,8 +2,10 @@ import express from "express";
 import connectDb from "./config/db";
 import apiRoutes from "./routes/apiRoutes";
 import bodyParser from "body-parser";
-
 import importData from "./seeder/seeder";
+import cors from "cors";
+
+app.use(cors());
 
 const app = express();
 
@@ -26,7 +28,11 @@ app.use((error, req, res, next) => {
   const message = error.message;
   const stack = error.stack;
   const status = 500;
-  console.log({ status, message, stack });
+
+  if (process.env.NODE_ENV === "development") {
+    console.log({ status, message, stack });
+  }
+
   res.status(status).send({ status, message, stack });
 });
 
