@@ -8,9 +8,6 @@ const questions = [
     point: 10,
     wrongPoint: -2,
     category: "Traditional Vietnamese Clothing",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText: "Which Vietnamese city is famous for its lantern festival?",
@@ -21,9 +18,6 @@ const questions = [
     point: 15,
     wrongPoint: -3,
     category: "Vietnamese Festivals",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText: "What is the traditional Vietnamese music called?",
@@ -34,9 +28,6 @@ const questions = [
     point: 10,
     wrongPoint: -2,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText: "Which Vietnamese festival celebrates the harvest season?",
@@ -52,9 +43,6 @@ const questions = [
     point: 15,
     wrongPoint: -3,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText: "What is the traditional Vietnamese martial art called?",
@@ -65,9 +53,6 @@ const questions = [
     point: 20,
     wrongPoint: -4,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText: "Which Vietnamese city is famous for its water puppetry?",
@@ -78,9 +63,6 @@ const questions = [
     point: 12,
     wrongPoint: -2,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText:
@@ -92,9 +74,6 @@ const questions = [
     point: 8,
     wrongPoint: -1,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText: "Which Vietnamese dish is made from fermented shrimp paste?",
@@ -105,9 +84,6 @@ const questions = [
     point: 18,
     wrongPoint: -3,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText: "What is the traditional Vietnamese lunar calendar called?",
@@ -118,9 +94,6 @@ const questions = [
     point: 12,
     wrongPoint: -2,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText:
@@ -132,9 +105,6 @@ const questions = [
     point: 8,
     wrongPoint: -1,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText: "What is the traditional Vietnamese footwear called?",
@@ -145,9 +115,6 @@ const questions = [
     point: 10,
     wrongPoint: -2,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText: "Which Vietnamese dish is a type of rice noodle soup?",
@@ -158,9 +125,6 @@ const questions = [
     point: 15,
     wrongPoint: -3,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText:
@@ -172,9 +136,6 @@ const questions = [
     point: 10,
     wrongPoint: -2,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText: "Which Vietnamese city is famous for its lantern festival?",
@@ -185,9 +146,6 @@ const questions = [
     point: 15,
     wrongPoint: -3,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText:
@@ -204,9 +162,6 @@ const questions = [
     point: 20,
     wrongPoint: -4,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText:
@@ -218,9 +173,6 @@ const questions = [
     point: 12,
     wrongPoint: -2,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText:
@@ -232,9 +184,6 @@ const questions = [
     point: 8,
     wrongPoint: -1,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText:
@@ -251,9 +200,6 @@ const questions = [
     point: 18,
     wrongPoint: -3,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText:
@@ -265,9 +211,6 @@ const questions = [
     point: 12,
     wrongPoint: -2,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText:
@@ -279,9 +222,6 @@ const questions = [
     point: 8,
     wrongPoint: -1,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText: "What is the traditional Vietnamese rice paper roll called?",
@@ -292,9 +232,6 @@ const questions = [
     point: 10,
     wrongPoint: -2,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText:
@@ -306,9 +243,6 @@ const questions = [
     point: 12,
     wrongPoint: -2,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText: "What is the traditional Vietnamese hat called?",
@@ -319,9 +253,6 @@ const questions = [
     point: 10,
     wrongPoint: -2,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText: "Which Vietnamese city is famous for its coffee culture?",
@@ -332,9 +263,6 @@ const questions = [
     point: 15,
     wrongPoint: -3,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText: "What is the traditional Vietnamese martial art called?",
@@ -345,9 +273,6 @@ const questions = [
     point: 20,
     wrongPoint: -4,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText:
@@ -359,9 +284,6 @@ const questions = [
     point: 12,
     wrongPoint: -2,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText: "Which Vietnamese festival celebrates the arrival of spring?",
@@ -377,9 +299,6 @@ const questions = [
     point: 8,
     wrongPoint: -1,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText:
@@ -391,9 +310,6 @@ const questions = [
     point: 18,
     wrongPoint: -3,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText: "Which Vietnamese city is known for its lantern festival?",
@@ -404,9 +320,6 @@ const questions = [
     point: 12,
     wrongPoint: -2,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText:
@@ -418,9 +331,6 @@ const questions = [
     point: 8,
     wrongPoint: -1,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText:
@@ -432,9 +342,6 @@ const questions = [
     point: 12,
     wrongPoint: -2,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText: "Which Vietnamese city is famous for its Imperial Citadel?",
@@ -445,9 +352,6 @@ const questions = [
     point: 15,
     wrongPoint: -3,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText: "What is the traditional Vietnamese dress called?",
@@ -458,9 +362,6 @@ const questions = [
     point: 10,
     wrongPoint: -2,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText: "Which Vietnamese city is famous for its lantern festival?",
@@ -471,9 +372,6 @@ const questions = [
     point: 15,
     wrongPoint: -3,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText: "What is the traditional Vietnamese puppetry called?",
@@ -484,9 +382,6 @@ const questions = [
     point: 20,
     wrongPoint: -4,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText: "Which Vietnamese dish is a traditional sticky rice cake?",
@@ -497,9 +392,6 @@ const questions = [
     point: 12,
     wrongPoint: -2,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText:
@@ -511,9 +403,6 @@ const questions = [
     point: 8,
     wrongPoint: -1,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText: "Which Vietnamese city is famous for its ceramic products?",
@@ -524,9 +413,6 @@ const questions = [
     point: 18,
     wrongPoint: -3,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText:
@@ -538,9 +424,6 @@ const questions = [
     point: 12,
     wrongPoint: -2,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText: "Which Vietnamese city is famous for its silk production?",
@@ -551,9 +434,6 @@ const questions = [
     point: 8,
     wrongPoint: -1,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText:
@@ -565,9 +445,6 @@ const questions = [
     point: 14,
     wrongPoint: -3,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   {
     questionText: "Which Vietnamese festival celebrates the arrival of spring?",
@@ -583,9 +460,6 @@ const questions = [
     point: 16,
     wrongPoint: -3,
     category: "Vietnamese Culture",
-    image: {
-      url: "https://res.cloudinary.com/dg3fsapzu/image/upload/v1684997117/iStock-641930392-1_khpkqi.jpg",
-    },
   },
   // Add more questions here...
 ];

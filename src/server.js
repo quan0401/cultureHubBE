@@ -5,9 +5,9 @@ import bodyParser from "body-parser";
 import importData from "./seeder/seeder";
 import cors from "cors";
 
-app.use(cors());
-
 const app = express();
+
+app.use(cors());
 
 const port = 8081;
 
@@ -23,7 +23,6 @@ connectDb();
 app.use("/api", apiRoutes);
 
 //  handle error
-
 app.use((error, req, res, next) => {
   const message = error.message;
   const stack = error.stack;

@@ -1,14 +1,12 @@
 import Question from "../models/questionModel";
+
 export const getQuestionsApi = async (req, res, next) => {
   try {
-    // const questions = await Question.find({})
-    //   .limit(5)
-    //   .sort({ time: 1 })
-    //   .select("-createdAt -updatedAt -__v")
-    //   .orFail();
-
-    const questions = await Question.findById("646f044554827d29e6155d14");
-    console.log({ questions });
+    const questions = await Question.find({})
+      .limit(5)
+      .sort({ time: 1 })
+      .select("-createdAt -updatedAt -__v")
+      .orFail();
 
     res.status(200).send(questions);
   } catch (error) {
@@ -27,7 +25,6 @@ export const createQuestion = async (req, res, next) => {
       point,
       wrongPoint,
       category,
-      imageUrl,
     } = req.body;
 
     if (
@@ -39,14 +36,13 @@ export const createQuestion = async (req, res, next) => {
         author &&
         point &&
         wrongPoint &&
-        category &&
-        imageUrl
+        category
       )
     )
       return res
         .status(400)
         .send(
-          "All inputs are required: questionText options, correctAnswer, time, author, point, wrongPoint, category, imageUrl "
+          "All inputs are required: questionText options, correctAnswer, time, author, point, wrongPoint, category"
         );
 
     const createdQuestion = await Question.create({
@@ -58,7 +54,6 @@ export const createQuestion = async (req, res, next) => {
       point,
       wrongPoint,
       category,
-      image: { url: imageUrl },
     });
     res.status(201).send(createdQuestion);
   } catch (error) {
@@ -82,7 +77,6 @@ export const updateQuestion = async (req, res, next) => {
     questionData.point = req.body.point || questionData.point;
     questionData.wrongPoint = req.body.wrongPoint || questionData.wrongPoint;
     questionData.category = req.body.category || questionData.category;
-    questionData.image.url = req.body.imageUrl || questionData.image.url;
 
     const saveQuestion = await questionData.save();
     res.status(200).send(saveQuestion);

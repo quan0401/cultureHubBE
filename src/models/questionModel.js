@@ -10,11 +10,6 @@ const questionSchema = new mongoose.Schema(
     point: { type: Number, required: true },
     wrongPoint: { type: Number, required: true, default: 0 },
     category: { type: String, required: true },
-    image: {
-      url: {
-        type: String,
-      },
-    },
 
     // Other question properties
   },
