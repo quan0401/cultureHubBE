@@ -2,17 +2,23 @@ import Question from "../models/questionModel";
 
 export const getQuestionsApi = async (req, res, next) => {
   try {
-    const offset = req.query.offset || 0;
-    const limit = req.query.limit || 5;
+    // const offset = req.query.offset || 0;
+    // const limit = req.query.limit || 5;
 
-    const questions = await Question.find({})
-      .skip(offset)
-      .limit(limit)
-      .sort({ time: 1 })
-      .select("-createdAt -updatedAt -__v")
-      .orFail();
+    // const questions = await Question.find({})
+    //   .skip(offset)
+    //   .limit(limit)
+    //   .sort({ time: 1 })
+    //   .select("-createdAt -updatedAt -__v")
+    //   .orFail();
 
-    res.status(200).send(questions);
+    // res.status(200).send(questions);
+
+    const questions = await Question.find({});
+
+    questions.map((item, index) => {});
+
+    res.status(200).send({ length: questions.length, questions });
   } catch (error) {
     next(error);
   }
@@ -103,5 +109,12 @@ export const deleteQuestion = async (req, res, next) => {
     res.status(200).send({ deletedQuestion });
   } catch (error) {
     next(error);
+  }
+};
+
+export const addQuestionToCategory = (req, res, next) => {
+  try {
+  } catch (error) {
+    next();
   }
 };

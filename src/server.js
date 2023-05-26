@@ -9,8 +9,6 @@ const app = express();
 
 app.use(cors());
 
-const port = 8081;
-
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }));
 
@@ -35,6 +33,7 @@ app.use((error, req, res, next) => {
   res.status(status).send({ status, message, stack });
 });
 
+const port = 8081;
 app.listen(port, () => {
   console.log(`>>> Backend app listening on port ${port}`);
 });
