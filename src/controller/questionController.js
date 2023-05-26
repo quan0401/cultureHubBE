@@ -18,7 +18,7 @@ export const getQuestionsApi = async (req, res, next) => {
 
     questions.map((item, index) => {});
 
-    res.status(200).send({ length: questions.length, questions });
+    res.status(200).send({ data: { length: questions.length, questions } });
   } catch (error) {
     next(error);
   }
@@ -65,7 +65,7 @@ export const createQuestion = async (req, res, next) => {
       wrongPoint,
       category,
     });
-    res.status(201).send(createdQuestion);
+    res.status(201).send({ data: createdQuestion, statusCode: 201 });
   } catch (error) {
     next(error);
   }
@@ -89,7 +89,7 @@ export const updateQuestion = async (req, res, next) => {
     questionData.category = req.body.category || questionData.category;
 
     const saveQuestion = await questionData.save();
-    res.status(200).send(saveQuestion);
+    res.status(200).send({ data: saveQuestion, statusCode: 200 });
   } catch (error) {
     next(error);
   }
@@ -106,7 +106,7 @@ export const deleteQuestion = async (req, res, next) => {
 
     const deletedQuestion = await question.deleteOne();
 
-    res.status(200).send({ deletedQuestion });
+    res.status(200).send({ data: deletedQuestion, statusCode: 200 });
   } catch (error) {
     next(error);
   }
